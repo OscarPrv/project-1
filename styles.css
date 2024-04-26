@@ -1,0 +1,104 @@
+body{
+    background: #121222;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    top: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+}
+
+.head-text{
+    color: #FAF8FF;
+    width: 65%;
+    margin: auto;
+}
+
+h1{
+    text-align: center;
+    margin-top: 2rem;
+    font-family: 'Gill Sans', sans-serif;
+}
+
+.description{
+    text-align: center;
+    margin-bottom: 2rem;
+    font-family: 'Gill Sans', sans-serif;
+    font-size: 1.2rem;
+}
+
+
+
+.survey-container{
+    border-radius: 0.5rem;
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    color: #FAF8FF;
+    background: #FFFFFF20;
+    margin: auto;
+    padding: 3em;
+    width: 50%;
+    margin-bottom: 3.5rem;
+}
+
+.basic-info{
+    margin-bottom: 1.4rem;
+}
+
+.value-info{
+    display: block;
+    margin-top: 0.4rem;
+    width: 70%;
+    height: 1.8rem;
+    padding-left: 0.5rem;
+    border: 1px solid #FAF8FF ;
+    border-radius: 0.3rem;
+}
+
+.rate{
+    margin: 3rem 0;
+    width: 100%;
+}
+
+.rate-value{
+    font-size: 0.9rem;
+}
+
+input[type="radio"]{
+    margin-right: 0.9rem;
+    margin-left: 0;
+}
+
+input[type="checkbox"]{
+    min-width: 1.2rem;
+    min-height: 1.2rem;
+}
+
+.box-space{
+    margin-bottom: 3rem;
+}
+
+.box-value{
+    display: flex;
+    margin-bottom: 0.5rem;
+    font-size: 1rem;
+    align-items: center;
+}
+
+textarea{
+    border-radius: 0.3rem;
+    width: 90%;
+}
+
+.sub-but {
+    display: flex;
+    justify-content: center;
+}
+
+input[type="submit"]{
+    margin-top: 1.5rem;
+    padding: 1em;
+    height: 3rem;
+    width: 10rem;
+}
